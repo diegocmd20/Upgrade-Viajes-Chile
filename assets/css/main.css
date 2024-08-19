@@ -11976,4 +11976,44 @@ textarea.form-control-lg {
     height: 500px;
     width: 100%;
   }
+}
+@media (max-width: 576px) {
+  .testimonials__cards-section {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.testimonials__title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.testimonials__divider {
+  border: 1.5px solid #91989e;
+}
+.testimonials__cards-section {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.testimonials__cards-section .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #c9a227;
+  border: transparent;
+  padding: 1rem;
+}
+.testimonials__cards-section .card__paragraph {
+  font-style: italic;
+}
+.testimonials__cards-section .card__img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonials__cards-section .card__title {
+  margin: 0.5rem 0rem;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
