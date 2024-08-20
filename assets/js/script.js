@@ -4,9 +4,15 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-const myModal = document.getElementById('myModal')
+const myModal = document.getElementById('exampleModal')
 const myInput = document.getElementById('myInput')
 
 myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
-})
+});
+
+$(document).ready(function(){
+  $("#submit-form").click(function() {
+    alert("Tus datos han sido enviados correctamente !");
+  });
+});

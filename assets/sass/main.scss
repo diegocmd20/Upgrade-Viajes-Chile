@@ -1,4 +1,5 @@
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'abstracts/variables';
+@import 'vendors/bootstrap';
 @import 'base/typography';
 @import 'components/carousel';
 @import 'pages/index';
